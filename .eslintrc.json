@@ -38,5 +38,8 @@
       "message": "Use length instead of lenght (notice the position of the h)"
     }]
 
+  },
+  "parserOptions": {
+    "sourceType": "module"
   }
 }

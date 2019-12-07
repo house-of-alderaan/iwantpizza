@@ -4,7 +4,7 @@ import './App.scss';
 function App() {
   return (
     <div className="app">
-   🍕Yay!   
+  		 <span role="img" aria-label="Pizza">🍕</span> Yay!
     </div>
   );
 }
