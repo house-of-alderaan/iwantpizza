@@ -6,9 +6,12 @@
   },
   "parserOptions": {
     "ecmaFeatures": {
-      "experimentalObjectRestSpread":true
+      "experimentalObjectRestSpread":true,
+      "jsx": true,
+      "modules": true
     }
   },
+  "parser": "babel-eslint",
   "extends": "eslint:recommended",
   "rules": {
     "indent": [2, "tab"],
@@ -37,6 +40,5 @@
       "property": "lenght",
       "message": "Use length instead of lenght (notice the position of the h)"
     }]
-
   }
 }
