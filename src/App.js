@@ -1,12 +1,15 @@
 import React from 'react';
 import './App.scss';
 
-function App() {
-	return (
-		<div className="app">
-		<span role="img" aria-label="Pizza">🍕</span> Yay!
-		</div>
-	);
+class App extends React.Component {
+	constructor(props) {
+		super(props);
+	}
+
+	render() {
+		return (<div className="app"></div>
+		);
+	}
 }
 
 export default App;
